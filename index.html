@@ -30,17 +30,44 @@
 
 <body>
     <!-- Banner section -->
-    <section class="grid grid-cols-2">
-        <div class="banner-left">
-            <h2>It's good
-                tea time at The Tea House</h2>
-            <p>Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
-            <button>Explore More</button>
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-2 container  mx-auto">
+        <div class="banner-left space-y-[30px] ">
+            <h2 class="text-[80px] font-bold">It's good <br>
+                tea time at The <br> Tea House</h2>
+            <p class="text-[#777777]">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste
+                Buds.
+            </p>
+            <button class="py-3 px-5 rounded text-white bg-linear-to-r from-[#FF8938] to-[#FF0000]">Explore More <span
+                    class="-rotate-45 inline-block"><i class="fa-solid fa-arrow-right-long"></i></span></button>
         </div>
-        <div class="banner-right">
+        <div class="banner-right  flex justify-end items-end relative">
             <img src="images/banner.png" alt="">
+            <!-- rating div -->
+            <div
+                class="bg-white rounded shadow-2xl w-[250px] flex justify-between items-center absolute left-[200px] bottom-[15pxx] py-[25px] px-[15px]">
+                <img src="images/banner-rating.png" alt="">
+                <div>
+                    <h2 class="text-2xl font-bold">5.00</h2>
+                    <p>Trust Pilot Ratings</p>
+                </div>
+            </div>
         </div>
     </section>
+
+
+
+    <!-- position learing
+    <div class="bg-amber-500 relative">
+        <div class="h-[100px] w-[100px] bg-red-500 font-bold relative top-[50px] left-[50px]">Relative</div>
+        <div class="h-[100px] w-[100px] bg-green-500 font-bold absolute top-5 left-5">Relative</div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ad hic nesciunt quis quo qui placeat culpa enim
+        facere libero error soluta deserunt minus voluptas, voluptate velit quibusdam maxime. Cum veniam modi id
+        corrupti doloremque ipsa nihil? Hic ex quidem maxime eaque est cum velit sit laborum quo minus magni iste ipsa
+        eos voluptatum odit necessitatibus, veniam assumenda asperiores illo aut? Ducimus, inventore aperiam impedit
+        accusamus explicabo quisquam deserunt non dignissimos harum expedita nesciunt consequuntur tempora enim nemo
+        consequatur ratione laudantium saepe neque voluptatibus reiciendis quis similique ullam illum. Maxime sint
+        laudantium accusamus doloribus eaque ducimus ex corporis explicabo laborum.
+    </div> -->
 </body>
 
 </html>
